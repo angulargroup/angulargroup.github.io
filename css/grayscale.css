@@ -45,7 +45,7 @@ p {
 }
 
 a {
-    color: #42dca3;
+    color: #c0392b;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -56,7 +56,39 @@ a:focus {
     text-decoration: none;
     color: #1d9b6c;
 }
-
+h1#logo {
+    margin: 0;
+    padding: 0;
+}
+#logo a {
+    color: #fff;
+    display: inline-block;
+    font-family: 'Viga', 'Helvetica', sans-serif;
+    font-size: 21px;
+    margin: 0;
+    letter-spacing: 0.04em;
+    background: #1a1a1a;
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    text-align: center;
+    line-height: 52px;
+    opacity: 0.8;
+}
+#logo a:hover {
+    background: #c0392b;
+}
+#logo .navbar-brand {
+    padding: 0;
+} 
+.top-nav-collapse #logo a {
+    background: #c0392b;
+    font-size: 18px;
+    width: 38px;
+    height: 38px;
+    line-height: 38px;
+    margin: 6px 0 0 0;
+}
 .light {
     font-weight: 400;
 }
@@ -147,7 +179,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background: url(../img/intro-bg1.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -305,17 +337,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #42dca3;
-    color: #42dca3;
+    border: 1px solid #c0392b;
+    color: #c0392b;
     background-color: transparent;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #42dca3;
+    border: 1px solid #c0392b;
     outline: 0;
     color: #000;
-    background-color: #42dca3;
+    background-color: #c0392b;
 }
 
 ul.banner-social-buttons {
