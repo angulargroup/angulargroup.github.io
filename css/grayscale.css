@@ -179,7 +179,7 @@ h1#logo {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(../img/intro-bg1.jpg) no-repeat bottom center scroll;
+    background: url(http://res.cloudinary.com/angulargroup/image/upload/c_scale,w_1980/v1425950635/intro-bg1_uili1f.jpg) no-repeat bottom center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
